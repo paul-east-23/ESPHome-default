@@ -1,4 +1,5 @@
 button:
+  # Allows the restart of the node remotely from Home Assistant
   - platform: restart
     name: Restart
 
