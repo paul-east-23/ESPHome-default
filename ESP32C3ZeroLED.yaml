@@ -6,4 +6,4 @@ light:
     pin: GPIO10
     num_leds: 1
     chipset: ws2812
-    name: "RGB"
+    name: "Onboard LED"
