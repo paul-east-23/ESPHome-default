@@ -28,9 +28,5 @@ text_sensor:
   - platform: wifi_info
     ip_address:
       name: Device IP Address
-      address_0:
-        name: IP Address
     ssid:
       name: Device Connected SSID
-    scan_results:
-      name: Device Latest Scan Results
