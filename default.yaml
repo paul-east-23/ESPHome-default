@@ -9,6 +9,7 @@ sensor:
     id: wifi_signal_db
     update_interval: 60s
     entity_category: "diagnostic"
+    icon: mdi:wifi-cog
   # Reports the WiFi signal strength in %
   - platform: copy
     source_id: wifi_signal_db
@@ -18,15 +19,19 @@ sensor:
     unit_of_measurement: "Signal %"
     entity_category: "diagnostic"
     device_class: ""
+    icon: mdi:wifi-cog
   # Up time sensor
   - platform: uptime
     type: seconds
     name: Uptime Sensor
+    icon: mdi:alarm-check
 
 # Simple WiFi info
 text_sensor:
   - platform: wifi_info
     ip_address:
-      name: Device IP Address
+      name: Device IP Address  
+      icon: mdi:wifi-cog
     ssid:
       name: Device Connected SSID
+      icon: mdi:wifi-cog
