@@ -30,8 +30,8 @@ sensor:
 text_sensor:
   - platform: wifi_info
     ip_address:
-      name: Device IP Address  
+      name: WiFi IP Address  
       icon: mdi:wifi-cog
     ssid:
-      name: Device Connected SSID
+      name: WiFi Connected SSID
       icon: mdi:wifi-cog
